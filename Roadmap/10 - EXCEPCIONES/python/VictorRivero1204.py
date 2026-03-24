@@ -29,7 +29,7 @@ def process_params(parameters: list):
     print(parameters[2] + 5)
 
 try:
-    process_params([1, 2, 3, 4])
+    process_params([1, 2, "Victor", 4])
 except IndexError as e:
     print("El numero de elementos de la lista no puede ser mayor de dos.")
 except ZeroDivisionError as e:
